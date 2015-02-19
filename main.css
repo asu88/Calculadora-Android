@@ -1,0 +1,41 @@
+
+#titulo{
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 5%;
+    color:blue;
+}
+
+
+table{
+    /*border: 1px solid black;*/
+    width:10%;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top:20%;*/
+    
+}
+
+
+#tabla{
+ /*background-color:rgba(180, 180, 144, 0.6);*/
+ width:25%;   
+ height:50%;
+ border-width:3px;
+ border-style: solid;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top:15%;
+
+/* margin:40px;0 0 30px; */
+ /*padding-left: 13px;*/
+ padding: 20px;
+ z-index:2;
+ -moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+ border-radius: 15px;
+ box-shadow: 10px 0px 10px #0FF;
+ -moz-box-shadow: 10px 0px 10px #0FF;
+ -webkit-box-shadow: 10px 0px 10px #0FF;
+}                                                                                                                       
+
