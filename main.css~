@@ -1,7 +1,6 @@
 
 #resultado{
-      background-color:white;    
-    width:90%;
+   width:90%;
     border-width:3px;
      border-style: solid;
      padding: 2% 2% 2% 2%;    

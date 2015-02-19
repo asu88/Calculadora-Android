@@ -28,7 +28,7 @@
     <td><button type="button" onclick="javascript:setCuatro()"><img src="images/cuatro.png"></button></td>
     <td><button type="button" onclick="javascript:setCinco()"><img src="images/cinco.png"></button></td>
     <td><button type="button" onclick="javascript:setSeis()"><img src="images/seis.png"></button></td>
-    <td><button type="button" onclick="javascript:setMulty()"><img src="images/multy.png"></button></td>
+    <td><button type="button" onclick="javascript:setMultiply()"><img src="images/multy.png"></button></td>
   </tr>
   <tr>
     <td><button type="button" onclick="javascript:setUno()"><img src="images/uno.png"></button></td>
