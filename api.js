@@ -17,7 +17,7 @@ function setSiete(){
         console.log(PrimerOperando);
     }else{
         SegundoOperando=siete;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;
         display = PrimerOperando;        
         PrimerOperando = null;
     }
@@ -32,7 +32,7 @@ function setOcho(){
         PrimerOperando = ocho;
     }else{
         SegundoOperando=ocho;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     } 
@@ -48,7 +48,7 @@ function setNueve(){
         PrimerOperando = nueve;
     }else{
         SegundoOperando=nueve;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
@@ -64,7 +64,7 @@ function setCuatro(){
         PrimerOperando = cuatro;
     }else{
         SegundoOperando=cuatro;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
@@ -80,10 +80,12 @@ function setCinco(){
         PrimerOperando = cinco;
     }else{
         SegundoOperando=cinco;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
+
+}
 
 
 function setSeis(){
@@ -93,7 +95,7 @@ function setSeis(){
         PrimerOperando = seis;
     }else{
         SegundoOperando=seis;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
@@ -107,7 +109,7 @@ function setUno(){
         PrimerOperando = uno;
     }else{
         SegundoOperando=uno;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
@@ -120,7 +122,7 @@ function setDos(){
         PrimerOperando = dos;
     }else{
         SegundoOperando=dos;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
@@ -134,49 +136,11 @@ function setTres(){
         PrimerOperando = tres;
     }else{
         SegundoOperando=tres;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     }  
 }
-
-function setDivide(){
-    document.getElementById("resultado").innerHTML = "/";
- }
-
-function setPoint(){
-    document.getElementById("resultado").innerHTML = ".";
- }
-
-function setMulty(){
-    
-    if (PrimerOperando != null){
-        document.getElementById("resultado").innerHTML = PrimerOperando + " x " ;
-        operacion = "prod"; 
-   }else{
-        alert("escribe el primer operando");
-    }
-
- }
-
-function setResta(){
-    document.getElementById("resultado").innerHTML = "-";
- }
-function setEqual(){
-    if (operacion == "suma")  {  
-         resultado = display + SegundoOperando; 
-         document.getElementById("resultado").innerHTML = display + " + "+ SegundoOperando +" = " + resultado;
-         SegundoOperando = null;
-
-    }else if(operacion =="prod"){
-          resultado = display * SegundoOperando; 
-         document.getElementById("resultado").innerHTML = display + " x "+ SegundoOperando +" = " + resultado;
-          SegundoOperando = null;        
-             
-    }else{
-           alert("operacion erronea");        
-    }
- }
 
 
 function setZero(){
@@ -186,25 +150,97 @@ function setZero(){
         PrimerOperando = cero;
     }else{
         SegundoOperando=cero;
-        document.getElementById("resultado").innerHTML = PrimerOperando + " + " + SegundoOperando;        
+        document.getElementById("resultado").innerHTML = PrimerOperando + operacion + SegundoOperando;        
         display = PrimerOperando;        
         PrimerOperando = null;
     } 
 }
 
 
+
+function setDivide(){
+    document.getElementById("resultado").innerHTML = "/";
+ }
+
+
+function setPoint(){
+    document.getElementById("resultado").innerHTML = ".";
+ }
+
+
+
 function setPlus(){
     
     if (PrimerOperando != null){
         document.getElementById("resultado").innerHTML = PrimerOperando + " + " ;
-        operacion = "suma"; 
+        operacion = " + "; 
+   }else{
+        alert("escribe el primer operando");
+    }
+ }
+
+function setResta(){
+    if (PrimerOperando != null){
+        document.getElementById("resultado").innerHTML = PrimerOperando + " - " ;
+        operacion = " - "; 
    }else{
         alert("escribe el primer operando");
     }
  }
 
 
-}
+
+function setMulty(){
+    
+    if (PrimerOperando != null){
+        document.getElementById("resultado").innerHTML = PrimerOperando + " x " ;
+        operacion = " x "; 
+   }else{
+        alert("escribe el primer operando");
+    }
+
+ }
+
+
+ function setDivide(){
+       if (PrimerOperando != null){
+        document.getElementById("resultado").innerHTML = PrimerOperando + " / " ;
+        operacion = " / "; 
+   }else{
+        alert("escribe el primer operando");
+    }
+
+
+ }
+
+ function setEqual(){
+    if (operacion == " + ")  {  
+         resultado = display + SegundoOperando; 
+         document.getElementById("resultado").innerHTML = display + " + "+ SegundoOperando +" = " + resultado;
+         SegundoOperando = null;
+
+    }else if(operacion ==" x "){
+          resultado = display * SegundoOperando; 
+         document.getElementById("resultado").innerHTML = display + " x "+ SegundoOperando +" = " + resultado;
+          SegundoOperando = null;        
+     
+    }else if(operacion == " - "){
+         resultado = display - SegundoOperando; 
+         document.getElementById("resultado").innerHTML = display + " - "+ SegundoOperando +" = " + resultado;
+          SegundoOperando = null;
+    
+    }else if(operacion ==" / "){
+         resultado = display / SegundoOperando; 
+         document.getElementById("resultado").innerHTML = display + " / "+ SegundoOperando +" = " + resultado;
+         SegundoOperando = null;
+    }
+
+    else{
+           alert("operacion erronea");        
+    }
+ }
+
+
 
 
 
