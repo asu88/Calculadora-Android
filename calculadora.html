@@ -4,48 +4,52 @@
 <head>
     <title>calculadora</title>
     <link rel="stylesheet" href="css/main.css">
+     <script src="js/jquery-1.11.2.min.js"></script>    
+    <script src="js/api.js"></script>    
 </head>
 
 <body>
 
-<div id="titulo">
-    <h1>CALCULADORA</h1>
+
+<div class="titulo">
+    <h1>CALCULADORA SPA</h1>
 </div>
 
 <div id="tabla">
 <table >
   
-  <tr>
-    <div id="resultado">0.</div>
+ <tr>
+    <div id="resultado"></div>
  </tr>
  <tr>
-    <td><button type="button" onclick="javascript:setSiete()"><img src="images/siete.png"></button></td>
-    <td><button type="button" onclick="javascript:setOcho()"><img src="images/ocho.png"></button></td>
-    <td><button type="button" onclick="javascript:setNueve()"><img src="images/nueve.png"></button></td>
-    <td><button type="button" onclick="javascript:setPlus()"><img src="images/plus.png"></button></td>
+    <td><button type ="button" class="7"><img src="images/siete.png"></button></td>
+    <td><button type="button"  class="8"><img src="images/ocho.png"></button></td>
+    <td><button type="button"  class="9"><img src="images/nueve.png"></button></td>
+    <td><button type="button"  class="plus"><img src="images/plus.png"></button></td>
   </tr>
   <tr>
-    <td><button type="button" onclick="javascript:setCuatro()"><img src="images/cuatro.png"></button></td>
-    <td><button type="button" onclick="javascript:setCinco()"><img src="images/cinco.png"></button></td>
-    <td><button type="button" onclick="javascript:setSeis()"><img src="images/seis.png"></button></td>
-    <td><button type="button" onclick="javascript:setMulty()"><img src="images/multy.png"></button></td>
+    <td><button type="button"  class="4"><img src="images/cuatro.png"></button></td>
+    <td><button type="button"  class="5"><img src="images/cinco.png"></button></td>
+    <td><button type="button"  class="6"><img src="images/seis.png"></button></td>
+    <td><button type="button"  class="sus"><img src="images/resta.jpg"></button></td>
   </tr>
   <tr>
-    <td><button type="button" onclick="javascript:setUno()"><img src="images/uno.png"></button></td>
-    <td><button type="button" onclick="javascript:setDos()"><img src="images/dos.png"></button></td>
-    <td><button type="button" onclick="javascript:setTres()"><img src="images/tres.png"></button></td>
-    <td><button type="button" onclick="javascript:setDivide()"><img src="images/divide.png"></button></td>
+    <td><button type="button"  class="1"><img src="images/uno.png"></button></td>
+    <td><button type="button"  class="2"><img src="images/dos.png"></button></td>
+    <td><button type="button"  class="3"><img src="images/tres.png"></button></td>
+    <td><button type="button"  class="x"><img src="images/multy.png"></button></td>
  </tr>
  <tr>
-    <td><button type="button" onclick="javascript:setZero()"><img src="images/zero.png"></button></td>
-    <td><button type="button" onclick="javascript:setPoint()"><img src="images/point.png"></button></td>
-    <td><button type="button" onclick="javascript:setEqual()"><img src="images/equal.png"></button></td>
-    <td><button type="button" onclick="javascript:setResta()"><img src="images/resta.png"></button></td>
+    <td><button type="button"  class="0"><img src="images/zero.png"></button></td>
+    <td><button type="button"  class="ce"><img src="images/ce.png"></button></td>
+    <td><button type="button"  class="equal"><img src="images/equal.png"></button></td>
+    <td><button type="button"  class="cociente"><img src="images/divide.png"></button></td>
   </tr>
 
   </table>
 </div >
-    <script src="js/api.js"></script>
+
+
 </body>
 </html>
 

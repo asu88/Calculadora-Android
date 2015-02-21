@@ -1,4 +1,8 @@
 
+.green { 
+    color: green;
+ }
+
 #resultado{
       background-color:white;    
     width:90%;
@@ -8,9 +12,9 @@
 }
 
 
-#titulo{
-    margin-left: 40%;
-    margin-right: 50%;
+.titulo{
+    margin-left: 35%;
+    margin-right: 20%;
     margin-top: 5%;
     color:blue;
 }
