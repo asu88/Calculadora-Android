@@ -79,7 +79,7 @@ var letra;
             if (PrimerOperando == null){
                 PrimerOperando = num;
                 $("#resultado").html( PrimerOperando );            
-                //console.log(PrimerOperando);
+
             }else{
                 SegundoOperando=num;
                 $("#resultado").html(PrimerOperando + operacion + SegundoOperando);
