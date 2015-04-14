@@ -2,7 +2,7 @@
     "version": "0.1",
     "name": "calculadora",
     "description": "una calculadora hecha con jquery",
-    "launch_path": "/index.html",
+    "launch_path": "X-Nav-Practica-Calculadora/index.html",
     "icons": {
     "16": "/app-template/app-icons/icon-16.png",
     "48": "/app-template/app-icons/icon-48.png",
