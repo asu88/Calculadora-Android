@@ -1,0 +1,10 @@
+{
+"version": "0.1",
+"name": "calculadora",
+"description": "una calculadora hecha con jquery",
+"launch_path": "http://asu88.github.io/X-Nav-Practica-Calculadora/index.html",
+"icons": {
+"16": "/app-template/app-icons/icon-16.png",
+"48": "/app-template/app-icons/icon-48.png",
+"128": "/app-template/app-icons/icon-128.png"
+}
