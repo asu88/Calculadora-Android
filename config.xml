@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.mooc.tempMV" version="1.0.0">
-  <name>TemporizadorV</name>
-  <description>Segundero de Cocina</description>
-  <author href="http://www.mywonderland.es" email="ivazquez@esdmadrid.es">IVZ and GHFT</author>
+  <name>CalculatorSPA</name>
+  <description>Calaculadora SPA</description>
+  <author href="http://github.com/asu88" email="asu.ramon88@gmail.com">Antonio Ramón Asu AKogo</author>
   <content src="index.html"/>
   
   <preference name="permissions" value="none"/>
@@ -38,7 +38,7 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <icon src="icon.png"/>
+  <icon src="images/icon.ico"/>
   <icon src="www/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
