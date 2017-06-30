@@ -1,4 +1,10 @@
 
+// código para llmar a las librerías añadidas.
+function onDeviceReady() { };
+
+document.addEventListener("deviceready", onDeviceReady, false);
+
+// Codigo de la aplicacion
 jQuery(document).ready(function() {
 
 var PrimerOperando =null;
