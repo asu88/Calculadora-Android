@@ -1,4 +1,4 @@
-# X-Nav-Practica-Calculadora
+# Calculadora-Android
 Calculadora de una cifra simple para Android
 
 ## Enunciado
