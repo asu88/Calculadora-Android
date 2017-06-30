@@ -1,6 +1,7 @@
 # X-Nav-Practica-Calculadora
-Ejercicio de asignaturas de aplicaciones HTML5. Primera práctica optativa. Calculadora SPA.
+Calculadora de una cifra simple para Android
 
 ## Enunciado
 
-Esta práctica consistirá en la creación de una calculadora que funcione como una SPA (single page application), compuesta por un documento HTML, una hoja de estilo CSS y un chero JavaScript. Detalles del enunciado en el programa de la asignatura.
+Esta Aplicación consiste en la creación de una calculadora que funcione como una SPA (single page application), para la platafroma Android. La cual realiza las cuatro operaciones básicas. 
+Se desarrolla en HTML5, Javascript y CSS3 y sin necesidad de usar Lenguajes nativos para la plataforma Android, se hace usao del framework PhoneGap para adaptarla el entorno Android.
